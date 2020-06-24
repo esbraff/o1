@@ -1,0 +1,1 @@
+pub const OP_NOP: i32 = 0;
