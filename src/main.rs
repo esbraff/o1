@@ -8,7 +8,7 @@ use opcodes::*;
 fn main() {
   let mut mem = VMMemory(vec![0; 10]);
   mem[0] = 1;
-  mem[1] = 2; // неработает
+  mem[1] = 2; // не работает
   mem[2] = OP_NOP;
   mem[3] = OP_NOP;
   mem[4] = OP_NOP;
